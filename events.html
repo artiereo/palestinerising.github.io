@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestine Raising</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        header {
+            background: linear-gradient(90deg, #cc0000, #008000);
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: 600;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #008000;
+            padding: 15px;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        /* Flexbox for side layout */
+        .content-wrapper {
+            display: flex;
+            margin: 20px;
+        }
+        aside {
+            width: 25%;
+            background: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+            border-right: 2px solid #ddd;
+        }
+        .ad {
+            background: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .ad img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        main {
+            width: 75%;
+            padding: 20px;
+        }
+        .event {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .event:hover {
+            transform: scale(1.05);
+        }
+        .event img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+        #news-ticker {
+    background: black;
+    color: white;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.ticker-content {
+    display: inline-block;
+    padding-left: 100%;
+    animation: ticker 10s linear infinite;
+}
+
+@keyframes ticker {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+    </style>
+</head>
+<body>
+    <header>Palestine Raising</header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#News">News</a>
+        <a href="#Event">Event</a>
+        <a href="#Contact Us">Contact Us</a>
+        <a href="#Media">Media</a>
+    </nav>
+
+    <div class="content-wrapper">
+        
+        <aside>
+            <h2>Sponsored Ads</h2>
+            <div class="ad">
+                <img src="adspic.webp"alt="Ad 1">
+                <p>Support Palestine Relief Efforts</p>
+            </div>
+            <div class="ad">
+                <img src="gmbr ads.jpeg" alt="Ad 2">
+                <p>Donate to Help Refugees</p>
+            </div>
+                <div class="ad">
+                    <img src="palestineasaas.jpg" alt="ad 3">
+                    <p>Support Palestine Relief Efforts</p>
+                </div>
+                <div class="ad">
+                    <img src="pals ads.jpg" alt="ad 3">
+                    <p>Donate to Help Refugees</p>
+                </div>
+                <div class="ad">
+                    <img src="palestine asasds.jpeg" alt="ad 4">
+                    <p>Join Our Charity Event</p>
+                </div>
+                <div class="ad">
+                    <img src="palestine asds.webp" alt="ad5">
+                    <p>Volunteer & Make a Difference</p>
+                </div>
+            </aside>
+            
+        </aside>
+
+
+
+        <!-- Right Side (Main Content) -->
+        <main>
+            <div id="news-ticker">
+                <span class="ticker-content">Breaking News: Join our upcoming protest this Sunday! | Donate now to support relief efforts.</span>
+            </div>
+            <div class="container">
+                <video width="1200" controls>
+                    <source src="Palestinians make their way after Israeli withdrawal from Netzarim Corridor.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="container" id="webinars">
+                <div class="event">
+                    <img src="webinare immage.png" alt="Webinar Event">
+                    <h2>Upcoming Webinars</h2>
+                    <p>Join our expert-led sessions discussing the Palestinian cause and global solidarity efforts.</p>
+                    <ul>
+                        <li><strong>Webinar: "History of Palestine"</strong> - March 15, 2025 | 7 PM GMT</li>
+                        <li><strong>Webinar: "Social Media Activism"</strong> - March 20, 2025 | 6 PM GMT</li>
+                        <li><strong>Webinar: "International Law & Human Rights"</strong> - March 25, 2025 | 8 PM GMT</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" id="protests">
+                <div class="event">
+                    <img src="protestimage.jpg" alt="Protest Event">
+                    <h2>Protests</h2>
+                    <p>Find out about upcoming demonstrations and peaceful protests in support of Palestine.</p>
+                    <ul>
+                        <li><strong>Protest in London</strong> - March 10, 2025 | Trafalgar Square | 2 PM</li>
+                        <li><strong>Protest in New York</strong> - March 12, 2025 | Times Square | 4 PM</li>
+                        <li><strong>Protest in Kuala Lumpur</strong> - March 18, 2025 | Dataran Merdeka | 5 PM</li>
+                    </ul>
+                </div>
+                <div id="countdown"></div>
+            </div>
+            <div class="container" id="discussions">
+                <div class="event">
+                    <img src="onlinediscussion.jpg" alt="Online Discussion Event">
+                    <h2>Online Discussions</h2>
+                    <p>Engage in meaningful conversations and share ideas on how to support Palestine online.</p>
+                    <ul>
+                        <li><strong>Twitter Space: "Voices for Palestine"</strong> - March 14, 2025 | 9 PM GMT</li>
+                        <li><strong>Reddit AMA: "Ask a Palestinian"</strong> - March 22, 2025 | 6 PM GMT</li>
+                        <li><strong>Facebook Live: "Solidarity Strategies"</strong> - March 28, 2025 | 7 PM GMT</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>© 2025 Palestine Solidarity Movement</footer>
+    <script>
+        function updateCountdown() {
+            const eventDate = new Date('March 10, 2025 14:00:00').getTime();
+            const now = new Date().getTime();
+            const difference = eventDate - now;
+            const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+            document.getElementById('countdown').innerText = `Next Protest in ${days} days!`;
+        }
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>
+
+
+
