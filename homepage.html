@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palestine Rising</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: linear-gradient(90deg, #cc0000, #008000);
+            color: white;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #008000;
+            padding: 15px;
+
+        }
+        .nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #ffcc00;
+        }
+
+        .banner {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .banner img {
+            width: 100%;
+            height: 150px;
+        }
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            gap: 20px;
+        }
+        .content .section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .content .card {
+            padding: 10px;
+            background: #eee;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            background: gray;
+        }
+        .latest-update {
+            flex: 1;
+            background: #eee;
+            padding: 10px;
+            max-width: 300px; /* Added max-width to reduce the width */
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background: black;
+            align-items: center;
+            color: white;
+        }
+        .footer-card {
+            display: flex;
+            align-items: center;
+            background: #eee;
+            padding: 10px;
+            gap: 10px;
+            text-align: center;
+        }
+        .footer-card img {
+            width: 50px;
+            height: 50px;
+            background: gray;
+        }
+        .fa {
+            padding: 10px; /* Reduced padding */
+            font-size: 20px; /* Reduced font size */
+            width: 20px; /* Reduced width */
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Palestine Rising</h1>
+        <div class="logo">
+            <img src="logo-removebg-preview.png" alt="logo" width="100" height="100">
+        </div>
+    </header>
+    <div class="nav">
+        <a href="homepage.html">Home</a>
+        <a href="aboutpage.html">About</a>
+        <a href="#news">News</a>
+        <a href="#event">Event</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#media">Media</a>
+    </div>
+    <div class="banner" id="home">
+        <img src="palestine flag.jpg" alt="Palestine Flag">
+        <div class="banner-text">A VOICE FOR JUSTICE AND FREEDOM</div>
+    </div>
+    <div class="content" id="about">
+        <div class="section">
+            <div class="card">
+                <img src="about1.jpg" alt="About Image 1">
+                <div>
+                    <h2>About Palestine Rising</h2>
+                    <p>Palestine Rising is dedicated to raising awareness about the struggles and triumphs of the Palestinian people. Our mission is to provide a platform for voices advocating for justice and freedom.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="about2.jpg" alt="About Image 2">
+                <div>
+                    <h2>Our Vision</h2>
+                    <p>We envision a world where the rights and dignity of the Palestinian people are recognized and respected. Through education, advocacy, and community engagement, we strive to make this vision a reality.</p>
+                </div>
+            </div>
+        </div>
+        <div class="latest-update">
+            <h2>Latest Update</h2>
+            <p>Stay tuned for the latest news and updates on our activities and events. We are committed to keeping you informed about the ongoing efforts to support the Palestinian cause.</p>
+        </div>
+    </div>
+    <footer>
+        <div>© 2025 Palestine Rising. All rights reserved.</div>
+        <div>
+            <p>Follow us on social media:</p>
+            <div>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
